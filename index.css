@@ -1,0 +1,88 @@
+body{
+            
+    background-image:  url("https://images.unsplash.com/photo-1500740516770-92bd004b996e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdWR5JTIwd2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: 100%;
+}
+#city{
+   height: 34px;
+   width: 20%;
+   text-align: center;
+   border: 1px solid black;
+   margin-left: 555px;
+   margin-top: 50px;
+   border-radius: 5px;
+}
+#button{
+   border: none;
+   background-color: red;
+   color: white;
+   height: 34px;
+   width: 6%;
+   border-radius: 5px;
+   font-size: 14px;
+   font-weight: bold;
+}
+#button:hover{
+   cursor: pointer;
+}
+#button2{
+   border: none;
+  
+   background-color: red;
+   color: white;
+   height: 34px;
+   width: 15%;
+   border-radius: 5px;
+  margin-right: -550px;
+  margin-left: 440px;
+   margin-top: 30px;
+   font-size: 14px;
+   font-weight: bold;
+}
+#button2:hover{
+   cursor: pointer;
+}
+#container{
+   border-radius: 5px;
+   grid-template-columns: repeat(2,1fr);
+   width: 20%;
+   margin: auto;
+   margin-right: 460px;
+   padding-left: 40px;
+   justify-content: center;
+   margin-top: 30px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.gmap_canvas{
+   overflow: hidden;
+   background: none;
+   height: 500px;
+   width: 600px;
+   margin-left: 560px;
+  
+ 
+}
+.gmap_canvas>.mapouter{
+   margin-top: -300px;
+}
+@media only screen and (max-width: 600px){
+   #city{
+       width: 30%;
+       margin-left: 140px;
+   }
+   #button{
+       width: 16%;
+   }
+   #container{
+       width: 70%;
+       padding-left: 22px;
+   }
+   .mapouter{
+       margin-top: 22px;
+       height: 300px;
+       width: 400px;
+       border: 1px solid red;
+   }
+}
